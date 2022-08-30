@@ -23,7 +23,9 @@ public class BookController {
      * 
     */
     // your code here - you should add a constructor or a setter injection
-    
+    BookController (BookService bookService) {
+        this.bookService = bookService;
+    }
     
     /////////
     /**
